@@ -4,60 +4,74 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Indoor Bonsai Lamp</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Noto Serif JP', serif;
       margin: 0;
       padding: 0;
-      background-color: #f1ecdf; /* colore di sfondo uguale al logo */
-      color: #333;
+      background-color: #f1ecdf; /* Colore ispirato al logo */
+      color: #2c2c2c; /* Inchiostro sumi (nero profondo) */
       display: flex;
       flex-direction: column;
       align-items: center;
       text-align: center;
     }
+
     .container {
       max-width: 800px;
       padding: 40px 20px;
     }
+
     h1 {
       color: #2e7d32;
-      font-size: 2.5em;
-      margin-bottom: 10px;
+      font-size: 2.7em;
+      margin-bottom: 20px;
+      font-weight: 600;
     }
+
     p {
-      font-size: 1.2em;
+      font-size: 1.15em;
+      line-height: 1.7;
       margin-bottom: 30px;
     }
+
     form {
       display: flex;
       flex-direction: column;
-      gap: 10px;
+      gap: 12px;
       align-items: center;
     }
+
     input[type="email"] {
-      padding: 10px;
+      padding: 12px;
       font-size: 1em;
       width: 100%;
-      max-width: 300px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
+      max-width: 320px;
+      border: 1px solid #bfbfbf;
+      border-radius: 6px;
+      font-family: 'Noto Serif JP', serif;
     }
+
     button {
-      padding: 10px 20px;
+      padding: 12px 24px;
       font-size: 1em;
       background-color: #2e7d32;
       color: white;
       border: none;
-      border-radius: 5px;
+      border-radius: 6px;
       cursor: pointer;
+      transition: background-color 0.3s ease;
+      font-weight: 600;
     }
+
     button:hover {
-      background-color: #27662b;
+      background-color: #255f28;
     }
+
     img {
       max-width: 200px;
-      margin-bottom: 20px;
+      margin-bottom: 30px;
     }
   </style>
 </head>
